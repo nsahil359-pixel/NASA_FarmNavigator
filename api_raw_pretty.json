@@ -1,0 +1,71 @@
+﻿{
+    "type":  "Feature",
+    "geometry":  {
+                     "type":  "Point",
+                     "coordinates":  [
+                                         79.95,
+                                         23.18,
+                                         484.02
+                                     ]
+                 },
+    "properties":  {
+                       "parameter":  {
+                                         "T2M":  {
+                                                     "20240801":  26.04,
+                                                     "20240802":  25.69,
+                                                     "20240803":  24.89,
+                                                     "20240804":  25.19,
+                                                     "20240805":  26.22,
+                                                     "20240806":  25.92,
+                                                     "20240807":  25.76,
+                                                     "20240808":  25.33,
+                                                     "20240809":  24.81,
+                                                     "20240810":  25.5
+                                                 },
+                                         "PRECTOTCORR":  {
+                                                             "20240801":  33.95,
+                                                             "20240802":  10.57,
+                                                             "20240803":  75.85,
+                                                             "20240804":  20.99,
+                                                             "20240805":  2.89,
+                                                             "20240806":  4.25,
+                                                             "20240807":  30.22,
+                                                             "20240808":  18.19,
+                                                             "20240809":  3.68,
+                                                             "20240810":  1.32
+                                                         }
+                                     }
+                   },
+    "header":  {
+                   "title":  "NASA/POWER Source Native Resolution Daily Data",
+                   "api":  {
+                               "version":  "v2.7.6",
+                               "name":  "POWER Daily API"
+                           },
+                   "sources":  [
+                                   "MERRA2"
+                               ],
+                   "fill_value":  -999.0,
+                   "time_standard":  "LST",
+                   "start":  "20240801",
+                   "end":  "20240810"
+               },
+    "messages":  [
+
+                 ],
+    "parameters":  {
+                       "T2M":  {
+                                   "units":  "C",
+                                   "longname":  "Temperature at 2 Meters"
+                               },
+                       "PRECTOTCORR":  {
+                                           "units":  "mm/day",
+                                           "longname":  "Precipitation Corrected"
+                                       }
+                   },
+    "times":  {
+                  "data":  1.207,
+                  "process":  0.02
+              }
+}
+
